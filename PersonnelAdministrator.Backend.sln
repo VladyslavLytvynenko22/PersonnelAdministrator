@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{23C710EC-2F0A-4A3C-AA65-E6C8F8DE2FFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{90579DF1-FBFF-4753-9ADB-86EBDABF4E17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9450E147-E0A5-4F73-B15D-6438860129F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B965EE77-D6FF-4262-9D41-CE9852A522FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelAdministrator.Domain", "PersonnelAdministrator.Domain\PersonnelAdministrator.Domain.csproj", "{170C7667-2ECA-4037-88B5-6A42B789B854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelAdministrator.Application", "PersonnelAdministrator.Application\PersonnelAdministrator.Application.csproj", "{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelAdministrator.Persistence", "PersonnelAdministrator.Persistence\PersonnelAdministrator.Persistence.csproj", "{E7EE588B-540B-4332-A23E-A8124C89E258}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonnelAdministrator.WebApi", "PersonnelAdministrator.WebApi\PersonnelAdministrator.WebApi.csproj", "{4A541BC5-886E-4249-975B-FC2DEFB6B4B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{170C7667-2ECA-4037-88B5-6A42B789B854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170C7667-2ECA-4037-88B5-6A42B789B854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170C7667-2ECA-4037-88B5-6A42B789B854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170C7667-2ECA-4037-88B5-6A42B789B854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7EE588B-540B-4332-A23E-A8124C89E258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7EE588B-540B-4332-A23E-A8124C89E258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7EE588B-540B-4332-A23E-A8124C89E258}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7EE588B-540B-4332-A23E-A8124C89E258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A541BC5-886E-4249-975B-FC2DEFB6B4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A541BC5-886E-4249-975B-FC2DEFB6B4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A541BC5-886E-4249-975B-FC2DEFB6B4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A541BC5-886E-4249-975B-FC2DEFB6B4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{170C7667-2ECA-4037-88B5-6A42B789B854} = {23C710EC-2F0A-4A3C-AA65-E6C8F8DE2FFE}
+		{4D9E8AC3-F83A-49DF-9840-0FBC9F503BC5} = {23C710EC-2F0A-4A3C-AA65-E6C8F8DE2FFE}
+		{E7EE588B-540B-4332-A23E-A8124C89E258} = {90579DF1-FBFF-4753-9ADB-86EBDABF4E17}
+		{4A541BC5-886E-4249-975B-FC2DEFB6B4B4} = {9450E147-E0A5-4F73-B15D-6438860129F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BA3E1DAF-5C77-4C85-A203-D3CB8A5FDCF6}
+	EndGlobalSection
+EndGlobal
